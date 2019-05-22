@@ -1,6 +1,6 @@
 {
   "name": "react-cg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": " react component generator",
   "main": "commands.js",
   "preferGlobal": true,
