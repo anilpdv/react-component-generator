@@ -1,4 +1,5 @@
 const fs = require('fs');
+const chalk = require('chalk');
 let dir = '';
 
 const createFolder = (name, types) => {
@@ -28,7 +29,11 @@ export default ${name};`,
       if (err) {
         console.log(err);
       }
-      console.log(`file : ${fileJsx} genrated`);
+      console.log(
+        chalk.green(
+          `file : ${name}.component.${types.jstype} genrated in ${name} folder`,
+        ),
+      );
     },
   );
 
@@ -36,7 +41,11 @@ export default ${name};`,
     if (err) {
       console.log(err);
     }
-    console.log(`file : ${fileCss} genrated`);
+    console.log(
+      chalk.green(
+        `file : ${name}.component.${types.csstype} generated in ${name} folder`,
+      ),
+    );
   });
 };
 

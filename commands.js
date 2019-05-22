@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 const program = require('commander');
 const {prompt} = require('inquirer');
-const chalk = require('chalk');
 const {createFolder} = require('./src/componentGenerator');
+const chalk = require('chalk');
 
-program.version('1.0.0').description('rgc');
+program.version('1.0.4').description('react-cg');
 
 const questions = [
   {
@@ -24,7 +24,7 @@ const questions = [
 program
   .command('generate <name>')
   .alias('g')
-  .description(chalk.blue('generate component'))
+  .description(chalk.yellow('generates component'))
   .action(name => {
     if (name) {
       prompt(questions).then(answers => {
