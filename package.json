@@ -8,12 +8,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "component-generator", "react-cg"],
+  "author": "anilpdv",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilpdv/react-component-generator"
   }
 }
