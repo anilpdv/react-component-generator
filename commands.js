@@ -4,7 +4,7 @@ const {prompt} = require('inquirer');
 const {createFolder} = require('./src/componentGenerator');
 const chalk = require('chalk');
 
-program.version('1.0.4').description('react-cg');
+program.version('1.0.5').description('react-cg');
 
 const questions = [
   {
