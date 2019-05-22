@@ -1,6 +1,6 @@
 {
   "name": "react-cg",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": " react component generator",
   "main": "commands.js",
   "preferGlobal": true,
@@ -8,7 +8,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "component-generator", "react-cg"],
+  "keywords": [
+    "react",
+    "component-generator",
+    "react-cg"
+  ],
   "author": "anilpdv",
   "license": "ISC",
   "dependencies": {
