@@ -5,7 +5,7 @@ const {createFolder} = require('./src/componentGenerator');
 const {createHooksFolder} = require('./src/hookComponentGenerator');
 const chalk = require('chalk');
 
-program.version('1.0.5').description('react-cg');
+program.version('1.0.6').description('react-cg');
 
 const questions = [
   {
