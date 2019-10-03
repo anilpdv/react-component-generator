@@ -1,7 +1,7 @@
 # React-cg
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![Greenkeeper badge](https://badges.greenkeeper.io/anilpdv/react-component-generator.svg)](https://greenkeeper.io/)
 
 React-cg is simple component generator for react with some boiler code.
 
